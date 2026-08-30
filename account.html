@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Entry Form</title>
+</head>
+<body>
+
+    <h2>Create Account</h2>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+        
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="firstname" required><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lastname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="music" name="hobbies[]" value="Music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="hobbies[]" value="Sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="travel" name="hobbies[]" value="Travel">
+        <label for="travel">Travel</label><br>
+        <input type="checkbox" id="movies" name="hobbies[]" value="Movies">
+        <label for="movies">Movies</label><br><br>
+
+        <label for="income">Source of Income:</label><br>
+        <select id="income" name="source_of_income">
+            <option value="employed">Employed</option>
+            <option value="student">Student</option>
+        </select><br><br>
+
+        <label for="profile_pic">Upload Profile Picture:</label><br>
+        <input type="file" id="profile_pic" name="profile_picture" accept="image/*"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+        <label for="bio">Biography:</label><br>
+        <textarea id="bio" name="biography" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
+</body>
+</html>
